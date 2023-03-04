@@ -4,7 +4,7 @@ pipeline {
         stage('vcs') {
             steps{
               git url: 'https://github.com/CAESAR269/vm-tf.git'
-              branch: 'main'
+                  branch: 'main'
            }
         }
         stage('terraform'){
